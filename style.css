@@ -56,7 +56,7 @@
 }
 .main{
     display: flex;
-    background-image: url(bgref.png);
+    background-image: url(/bgref.png);
     background-size: max(1200px, 100vw);
     height: 500px;
     width: 80vw;
@@ -139,42 +139,42 @@
 
 }
 .item-1{
-    background-image: url(item1B.jpeg);
+    background-image: url(/item1B.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-2{
-    background-image: url(item2b.jpg);
+    background-image: url(/item2b.jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .item-3{
-    background-image: url(item3b.jpg);
+    background-image: url(/item3b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-4{
-    background-image: url(item4b.jpeg);
+    background-image: url(/item4b.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-5{
-    background-image: url(item5bb.jpeg);
+    background-image: url(/item5bb.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-6{
-    background-image: url(item6b.jpeg);
+    background-image: url(/item6b.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -183,11 +183,11 @@
 .section-two{
     /* border: 2px solid rgb(51, 0, 255); */
 
-    height: 1820px;
+    height: 20px;
     width: 100vw;
     display: grid;
     /* height: 1801px; */
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     /* justify-content: center; */
     align-items: center;
     gap: 10px;
@@ -410,6 +410,15 @@ ord:active{
     grid-template-rows: repeat(6, 1fr);
 
 }
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
 }
 @media screen and (max-width: 400px){
     .abtUs{
@@ -427,4 +436,31 @@ ord:active{
         border-radius: 5px;
         transition: background-color 0.2s ease-in-out;
       }
+      .text h4{
+        padding-right: 15px;
+        width: 60%;
+        text-align: center;
+        font-family: "poppins";
+        font-size: 22px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+  }
 }
