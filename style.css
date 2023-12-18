@@ -458,7 +458,7 @@ ord:active{
   .logo {
     display: flex;
     flex-direction: row;
-
+    font-weight: 500;
     font-size: 1rem;
     color: #000;
     text-decoration: none;
