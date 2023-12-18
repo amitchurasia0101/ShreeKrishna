@@ -56,7 +56,7 @@
 }
 .main{
     display: flex;
-    background-image: url(/bgref.png);
+    background-image: url(bgref.png);
     background-size: max(1200px, 100vw);
     height: 500px;
     width: 80vw;
@@ -139,42 +139,42 @@
 
 }
 .item-1{
-    background-image: url(/item1B.jpeg);
+    background-image: url(item1B.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-2{
-    background-image: url(/item2b.jpg);
+    background-image: url(item2b.jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .item-3{
-    background-image: url(/item3b.jpg);
+    background-image: url(item3b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-4{
-    background-image: url(/item4b.jpeg);
+    background-image: url(item4b.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-5{
-    background-image: url(/item5bb.jpeg);
+    background-image: url(item5bb.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
     
 }
 .item-6{
-    background-image: url(/item6b.jpeg);
+    background-image: url(item6b.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
